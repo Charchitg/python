@@ -1,0 +1,9 @@
+p=input("enter the amount :")
+r=input("enter the rate of interest :")
+t=input("enter the time period(in years) :")
+p=int(p)
+r=int(r)
+t=int(t)
+si=(p*r*t)/100
+print("simple interest = " , si)
+print("total amount payable =" , p+si)

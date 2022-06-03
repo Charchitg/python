@@ -1,0 +1,9 @@
+pre=-1
+cur=1
+i=1
+while i<=20:
+    next = pre + cur
+    print(next,end=" ")
+    i+=1
+    pre=cur
+    cur=next
